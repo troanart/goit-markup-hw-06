@@ -67,8 +67,9 @@
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
-          <button type="button" class="button-modal" data-modal-close></button>
-          <form class="modal-window-form" action="">
+          
+          <form class="modal-window-form" >
+            <button type="button" class="button-modal" data-modal-close></button>
             <h2 class="form__title">Залиште свої дані, ми вам передзвонимо</h2>
             <div class="form-groop top">
               <label class="form-label" for="name">Ім'я</label>
@@ -119,7 +120,7 @@
                   <use href="./img/icons.svg#icon-check-1"></use>
                 </svg>
                 Погоджуюся з розсилкою та приймаю
-                <a class="agreement" href="#"> Умови договору</a></label
+                 <a class="agreement" href="#"> Умови договору</a></label
               >
             </div>
             <div class="form-btn-submit">
@@ -517,17 +518,14 @@
           </ul>
         </div>
         <div class="form-in-footer">
-          <form action="" class="footer-form">
-            <label class="email-footer" for="email-footer"
-              >Підпишіться на розсилку</label
-            >
-            <input
+          <form class="footer-form">
+            <label class="email-footer" for="email-footer" >Підпишіться на розсилку
+              <input
               class="footer-input"
               type="email"
               placeholder="Email"
               name="email"
-              id="email-footer"
-            />
+            /></label>
             <button type="submit" class="footer-button-submit">
               Підписатися
               <svg class="form-footer-icon">
