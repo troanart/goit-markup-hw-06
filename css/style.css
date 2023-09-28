@@ -424,6 +424,7 @@ li {
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 }
 
 .backdrop.is-hidden .modal-window {
@@ -634,15 +635,13 @@ li {
 }
 
 .form-checkbox:focus + .chek-icon {
-  border: 2px solid var(--primary-link-color)
+  border: 2px solid var(--primary-link-color);
 }
 
 .form-checkbox:checked + .chek-icon {
   fill: var(--primary-link-color);
   border: none;
 }
-
-
 
 .chek-icon {
   width: 16px;
@@ -655,8 +654,6 @@ li {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 /* --------- section about ------- */
 
@@ -909,7 +906,6 @@ li {
 .site-footer {
   background: var(--footer-bcg-color);
   padding: 60px 0;
-  
 }
 
 .footer-logo {
@@ -976,7 +972,6 @@ li {
 .box-footer {
   display: flex;
   align-items: baseline;
-  
 }
 
 .icon-link-footer-ul {
@@ -1040,18 +1035,16 @@ li {
   cursor: pointer;
   position: relative;
   margin-left: 12px;
-  
 }
 
 .form-in-footer {
- margin-left: 117px;
+  margin-left: 117px;
 }
 
 .footer-form {
   width: 570px;
   display: flex;
   align-items: end;
-  
 }
 
 .footer-input {
@@ -1065,17 +1058,15 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .footer-input::placeholder {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.25; 
-  letter-spacing: 0.48px; 
+  line-height: 1.25;
+  letter-spacing: 0.48px;
 }
-
 
 .footer-input:focus {
   border: 1px solid var(--primary-link-color);
@@ -1087,7 +1078,6 @@ li {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  
 }
 
 .form-footer-icon {
